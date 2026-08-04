@@ -22,10 +22,30 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- Ambient Cursor Glow Spotlight -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+
+
+  <!-- Hardware accelerated background lightfall -->
+  <canvas id="lightfall-canvas"></canvas>
+
+  <!-- TrueFocus Custom Snapping Cursor -->
+  <div class="focus-frame" id="focusFrame">
+    <span class="corner top-left"></span>
+    <span class="corner top-right"></span>
+    <span class="corner bottom-left"></span>
+    <span class="corner bottom-right"></span>
+  </div>
+
+
 
   <!--
     - #MAIN
@@ -46,7 +66,7 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="UTKARSH TYAGI ">UTKARSH TYAGI</h1>
+          <h1 class="name" title="SURYANSH TYAGI ">SURYANSH TYAGI</h1>
 
           <p class="title">Web developer</p>
         </div>
@@ -102,7 +122,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="2005-05-14">MAY  14 , 2005</time>
+              <time datetime="2006-08-14">AUG 14 ,2006</time>
             </div>
 
           </li>
@@ -116,7 +136,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>MEERUT ,UP   INDIA </address>
+              <address>MEERUT ,UP INDIA </address>
             </div>
 
           </li>
@@ -191,6 +211,11 @@
 
         </ul>
 
+        <!-- Limelight spotlight container -->
+        <div class="limelight" data-limelight>
+          <div class="limelight-cone"></div>
+        </div>
+
       </nav>
 
 
@@ -209,17 +234,19 @@
 
         <section class="about-text">
           <p>
-            I'm web developer  and content writer from meerut, INDIA , working in web development and content writing .
+            I'm web developer and content writer from meerut, INDIA , working in web development and content writing .
             I enjoy
             turning complex problems into simple, beautiful and intuitive designs.
           </p>
 
           <p>
-            My job is to build your website so that it is fully-functional and user-friendly but at the same time attractive.
+            My job is to build your website so that it is fully-functional and user-friendly but at the same time
+            attractive.
             Moreover, I
             add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
             across your
-            message and identity in the most creative way. I created web design for many client and some gaming website for tournment hosting and some for housing Listing and renting and many more .
+            message and identity in the most creative way. I created web design for many client and some gaming website
+            for tournment hosting and some for housing Listing and renting and many more .
           </p>
         </section>
 
@@ -245,7 +272,7 @@
                 <h4 class="h4 service-item-title">Web design</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a intermediate  level.
+                  The most modern and high-quality design made at a intermediate level.
                 </p>
               </div>
 
@@ -277,7 +304,7 @@
                 <h4 class="h4 service-item-title">Mobile apps</h4>
 
                 <p class="service-item-text">
-                  I started my journy in making android APP development 
+                  I started my journy in making android APP development
                 </p>
               </div>
 
@@ -293,7 +320,7 @@
                 <h4 class="h4 service-item-title">Gaming (PC,PHONE)</h4>
 
                 <p class="service-item-text">
-                  Im just a casual pc gamer but a esport player in phone gaming 
+                  Im just a casual pc gamer but a esport player in phone gaming
                 </p>
               </div>
 
@@ -325,9 +352,11 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Utkarsh Tyagi  was hired to create a corporate identity. We were very pleased with the work done.He has a
+                    Utkarsh Tyagi was hired to create a corporate identity. We were very pleased with the work done.He
+                    has a
                     lot of experience
-                    and is very concerned about the needs of client. Listen the client very carefully and cooprate well with clint 
+                    and is very concerned about the needs of client. Listen the client very carefully and cooprate well
+                    with clint
                     product detalils
 
                   </p>
@@ -345,11 +374,13 @@
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
 
-                <div class="testimonials-text" data-testimonials-text>  
+                <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Utkarsh Tyagi  was hired to create a corporate identity. We were very pleased with the work done. He has a
+                    Utkarsh Tyagi was hired to create a corporate identity. We were very pleased with the work done. He
+                    has a
                     lot of experience
-                    and is very concerned about the needs of client. listen to client very carefully and as good as possible  
+                    and is very concerned about the needs of client. listen to client very carefully and as good as
+                    possible
                     according to thew clinet and there needs and there professional work.
                   </p>
                 </div>
@@ -365,11 +396,12 @@
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-                
+
                 <div class="testimonials-text" data-testimonials-text>
-                    UTKARSH TYAGI was hired to create a corporate identity. We were very pleased with the work done. He has a
-                    lot of experience
-                    and is very concerned about the needs of client.
+                  UTKARSH TYAGI was hired to create a corporate identity. We were very pleased with the work done. He
+                  has a
+                  lot of experience
+                  and is very concerned about the needs of client.
                   </p>
                 </div>
 
@@ -387,7 +419,8 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    UTKARSH TYAGI was hired to create a corporate identity. We were very pleased with the work done. He has a
+                    UTKARSH TYAGI was hired to create a corporate identity. We were very pleased with the work done. He
+                    has a
                     lot of experience
                     and is very concerned about the needs of client.
                   </p>
@@ -397,7 +430,7 @@
             </li>
 
           </ul>
-          
+
         </section>
 
 
@@ -431,7 +464,8 @@
 
               <div data-modal-text>
                 <p>
-                  utkarsh Tyagi was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  utkarsh Tyagi was hired to create a corporate identity. We were very pleased with the work done. She
+                  has a
                   lot of experience
                   and is very concerned about the needs of client.
                 </p>
@@ -536,25 +570,25 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Higher  Education form THE AARYANSH </h4>
+              <h4 class="h4 timeline-item-title">Higher Education form THE AARYANSH </h4>
 
               <span>2020 — 2023</span>
 
               <p class="timeline-text">
                 They do not know how to follow the reason of pleasure, we dare to do any wrongs,
-                 every pleasure must be assumed by all
+                every pleasure must be assumed by all
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Secondary education  from THE AARYANSH</h4>
+              <h4 class="h4 timeline-item-title">Secondary education from THE AARYANSH</h4>
 
               <span>2017 — 2020</span>
 
               <p class="timeline-text">
-               Not good at coding in my high school but ill try my best then day by day my coding get better and better 
+                Not good at coding in my high school but ill try my best then day by day my coding get better and better
                 .
               </p>
 
@@ -595,8 +629,8 @@
               <span>2022 — Present</span>
 
               <p class="timeline-text">
-                Not very professional but intermediate level and i always give my touch in the content writing 
-                and as good as possible from my side 
+                Not very professional but intermediate level and i always give my touch in the content writing
+                and as good as possible from my side
               </p>
 
             </li>
@@ -608,10 +642,74 @@
               <span>2022 — Present</span>
 
               <p class="timeline-text">
-                not intermediate and not proffesional level but in between that as i told you ill give my touch to the project 
+                not intermediate and not proffesional level but in between that as i told you ill give my touch to the
+                project
                 and eye catching project and give my best as possible
               </p>
 
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Dynamic Projects timeline section -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="folder-open-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Featured Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Resume Analyzer</h4>
+              <span>Python, ML & NLP Project</span>
+              <p class="timeline-text">
+                Designed and built an intelligent parsing engine that analyzes candidate resumes using Natural Language
+                Processing. Automatically matches skills, suggests keyword improvements, and scores fit against
+                technical job descriptions.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Microsoft Website Clone</h4>
+              <span>Frontend Development</span>
+              <p class="timeline-text">
+                Developed a pixel-perfect, highly responsive clone of the Microsoft homepage. Leveraged CSS Grid/Flexbox
+                and vanilla JavaScript interactions to construct accessible navigation menus and carousel elements.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Virtual Portfolio</h4>
+              <span>Creative Web Development</span>
+              <p class="timeline-text">
+                Programmed a dynamic digital portfolio showcasing interactive resume entries, custom tag filtering for
+                project galleries, and modern responsive layouts optimized across device form factors.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Scrolling LED Display(harware project)</h4>
+              <span>Embedded Hardware Systems</span>
+              <p class="timeline-text">
+                Architected and coded dynamic scrolling message boards using Arduino microcontrollers and LED dot-matrix
+                arrays. Created customizable firmware variables for speed, direction, and character fonts.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Black Line Follower Robot(hardware project )</h4>
+              <span>Robotics & Control Automation</span>
+              <p class="timeline-text">
+                Assembled and calibrated IR sensor arrays to drive motor speed feedback loops (PID), enabling an
+                autonomous crawler to trace black paths smoothly over white tracks.
+              </p>
             </li>
 
           </ol>
@@ -625,55 +723,53 @@
           <ul class="skills-list content-card">
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
                 <data value="80">80%</data>
               </div>
-
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 80%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">content writing </h5>
+                <h5 class="h5">Python</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
                 <data value="70">70%</data>
               </div>
-
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 70%;"></div>
               </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Gaming PC and mobile </h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Editing </h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
             </li>
 
           </ul>
@@ -712,7 +808,7 @@
               <button data-filter-btn>Projects </button>
             </li>
 
-            <li class="filter-item"> 
+            <li class="filter-item">
               <button data-filter-btn>Web development</button>
             </li>
 
@@ -757,7 +853,7 @@
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="Analyzer">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -775,7 +871,7 @@
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="Orizon">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -793,7 +889,7 @@
             <li class="project-item  active" data-filter-item data-category="web design">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="Personal Use Website">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -811,7 +907,7 @@
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="Brawlhalla">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -829,7 +925,7 @@
             <li class="project-item  active" data-filter-item data-category="web design">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="DSM.">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -847,9 +943,9 @@
             <li class="project-item  active" data-filter-item data-category="web design">
               <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">             
-                    <ion-icon name="eye-outline"></ion-icon>   
+                <figure class="project-img" data-tilted-card data-caption="Gaming Website">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/desktop.png" alt="metaspark" loading="lazy">
@@ -865,7 +961,7 @@
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="Summary">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -883,7 +979,7 @@
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="Task Manager">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -901,7 +997,7 @@
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" data-tilted-card data-caption="Arrival">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -919,6 +1015,40 @@
           </ul>
 
         </section>
+
+        <!-- Project Detail Glassmorphism Modal -->
+        <div class="project-modal-container" data-project-modal-container>
+          <div class="project-overlay" data-project-overlay></div>
+          <section class="project-modal">
+            <button class="modal-close-btn" data-project-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="project-modal-img-wrapper">
+              <figure class="project-modal-banner-box">
+                <img src="" alt="" data-project-modal-img>
+              </figure>
+            </div>
+            <div class="project-modal-content">
+              <p class="project-modal-category" data-project-modal-category>Category</p>
+              <h3 class="h3 project-modal-title" data-project-modal-title>Title</h3>
+
+              <div class="project-modal-tags" data-project-modal-tags>
+                <!-- Filled dynamically by JavaScript -->
+              </div>
+
+              <div class="project-modal-text" data-project-modal-text>
+                <p>Detailed description...</p>
+              </div>
+
+              <div class="project-modal-footer">
+                <a href="#" class="project-modal-btn" data-project-modal-link target="_blank">
+                  <ion-icon name="open-outline"></ion-icon>
+                  <span>Open Live Project</span>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
 
       </article>
 
@@ -938,12 +1068,15 @@
 
         <section class="blog-posts">
 
+          <!-- Hardware accelerated WebGL Circular Gallery container -->
+          <div class="blog-gallery-container" id="blog-gallery-container"></div>
+
           <ul class="blog-posts-list">
 
             <li class="blog-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="blog-banner-box" data-tilted-card data-caption="Design Conferences">
                   <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
                 </figure>
 
@@ -971,7 +1104,7 @@
             <li class="blog-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="blog-banner-box" data-tilted-card data-caption="Best Fonts">
                   <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
                 </figure>
 
@@ -988,7 +1121,7 @@
                   <h3 class="h3 blog-item-title">Best fonts every designer</h3>
 
                   <p class="blog-text">
-                    But to understand, for free time, when it is free us to choose 
+                    But to understand, for free time, when it is free us to choose
                   </p>
 
                 </div>
@@ -999,7 +1132,7 @@
             <li class="blog-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="blog-banner-box" data-tilted-card data-caption="Design Digest #80">
                   <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
                 </figure>
 
@@ -1016,7 +1149,7 @@
                   <h3 class="h3 blog-item-title">Design digest #80</h3>
 
                   <p class="blog-text">
-                    unless they are blinded by lust, they do not come out, who of us undertakes any exercise of the body 
+                    unless they are blinded by lust, they do not come out, who of us undertakes any exercise of the body
                   </p>
 
                 </div>
@@ -1027,7 +1160,7 @@
             <li class="blog-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="blog-banner-box" data-tilted-card data-caption="UI Interactions">
                   <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
                 </figure>
 
@@ -1044,7 +1177,8 @@
                   <h3 class="h3 blog-item-title">UI interactions of the week</h3>
 
                   <p class="blog-text">
-                    for i will come to the smallest detail, he  will follow  the teaching of the elitist, who is no strange to the exercise of any kind of work.
+                    for i will come to the smallest detail, he will follow the teaching of the elitist, who is no
+                    strange to the exercise of any kind of work.
                   </p>
 
                 </div>
@@ -1055,7 +1189,7 @@
             <li class="blog-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="blog-banner-box" data-tilted-card data-caption="Art of Spacing">
                   <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
                 </figure>
 
@@ -1083,7 +1217,7 @@
             <li class="blog-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="blog-banner-box" data-tilted-card data-caption="Design Digest #79">
                   <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
                 </figure>
 
@@ -1112,6 +1246,32 @@
 
         </section>
 
+        <!-- Blog Detail Glassmorphism Modal -->
+        <div class="blog-modal-container" data-blog-modal-container>
+          <div class="blog-overlay" data-blog-overlay></div>
+          <section class="blog-modal">
+            <button class="modal-close-btn" data-blog-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="blog-modal-img-wrapper">
+              <figure class="blog-modal-banner-box">
+                <img src="" alt="" data-blog-modal-img>
+              </figure>
+            </div>
+            <div class="blog-modal-content">
+              <div class="blog-modal-meta">
+                <span class="blog-modal-category" data-blog-modal-category>Category</span>
+                <span class="dot"></span>
+                <time datetime="" data-blog-modal-date>Date</time>
+              </div>
+              <h3 class="h3 blog-modal-title" data-blog-modal-title>Title</h3>
+              <div class="blog-modal-text" data-blog-modal-text>
+                <p>Content</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
       </article>
 
 
@@ -1131,7 +1291,7 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1153.433788904218!2d77.68629708794268!3d29.032158028064032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c65e4dd6d08b9%3A0xb1b23755f7563a49!2sRKT%20BUILDERS%20AND%20TRADERS!5e0!3m2!1sen!2sin!4v1711125441911!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1153.433788904218!2d77.68629708794268!3d29.032158028064032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c65e4dd6d08b9%3A0xb1b23755f7563a49!2sRKT%20BUILDERS%20AND%20TRADERS!5e0!3m2!1sen!2sin!4v1711125441911!5m2!1sen!2sin"
               referrerpolicy="no-referrer-when-downgrade" width="500" height="500" loading="lazy"></iframe>
           </figure>
         </section>
@@ -1171,6 +1331,11 @@
 
 
   <!--
+    - OGL WebGL Library UMD Bundle (Supports local file:// CORS loading)
+  -->
+  <script src="https://unpkg.com/ogl@1.0.11/dist/ogl.umd.js"></script>
+
+  <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
@@ -1183,4 +1348,4 @@
 
 </body>
 
-</html>12q3as6t9
+</html>
