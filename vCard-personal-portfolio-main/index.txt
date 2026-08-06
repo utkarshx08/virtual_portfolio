@@ -9,16 +9,16 @@ Web developer
 Show Contacts
 
 Email
-richard@example.com
+tyagityagi339@gmail.com
 
 Phone
-+1 (213) 352-2795
++917983252343
 
 Birthday
-June 23, 1982
+august 14, 2006
 
 Location
-Sacramento, California, USA
+meerut ,uttar pradesh,india
 
 # navbar
 
@@ -32,7 +32,7 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I'm Creative Director and UI/UX Designer from meerut, uttar pradesh working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
 
 My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
 
@@ -93,35 +93,68 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Meerut Institute of Engineering and Technology
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+2023 — 2027
 
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+from here my coding skill just getting beteer and better day by day because of my friends circle
+
+Higher Education form THE AARYANSH
+
+2020 — 2023
+
+They do not know how to follow the reason of pleasure, we dare to do any wrongs, every pleasure must be assumed by all
+
+Secondary education from THE AARYANSH
+
+2017 — 2020
+
+Not good at coding in my high school but ill try my best then day by day my coding get better and better .
+
+
 
 Experience
 
-Creative director
-2015 — Present
+editing
+2022 — Present
+
 Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
 
 Art director
-2013 — 2015
+2022 — Present
 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
 
 Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+2022 — Present
+
+not intermediate and not proffesional level but in between that as i told you ill give my touch to the project and eye catching project and give my best as possible
+
+Featured Projects
+AI Resume Analyzer
+Python, ML & NLP Project
+Designed and built an intelligent parsing engine that analyzes candidate resumes using Natural Language Processing. Automatically matches skills, suggests keyword improvements, and scores fit against technical job descriptions.
+
+Microsoft Website Clone
+Frontend Development
+Developed a pixel-perfect, highly responsive clone of the Microsoft homepage. Leveraged CSS Grid/Flexbox and vanilla JavaScript interactions to construct accessible navigation menus and carousel elements.
+
+Virtual Portfolio
+Creative Web Development
+Programmed a dynamic digital portfolio showcasing interactive resume entries, custom tag filtering for project galleries, and modern responsive layouts optimized across device form factors.
+
+Scrolling LED Display(harware project)
+Embedded Hardware Systems
+Architected and coded dynamic scrolling message boards using Arduino microcontrollers and LED dot-matrix arrays. Created customizable firmware variables for speed, direction, and character fonts.
+
+Black Line Follower Robot(hardware project )
+Robotics & Control Automation
+Assembled and calibrated IR sensor arrays to drive motor speed feedback loops (PID), enabling an autonomous crawler to trace black paths smoothly over white tracks.
 
 My skills
 
-Web design
+
+HTML
 80%
 Graphic design
 70%
