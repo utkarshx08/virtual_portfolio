@@ -2,8 +2,6 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
 alt = suryansh tyagi
 
 Suryansh tyagi
