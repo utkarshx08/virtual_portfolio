@@ -105,6 +105,7 @@ Navigation between different portfolio sections is designed to provide a smooth 
 
 - Git
 - GitHub
+- antigravity
 - Visual Studio Code
 - Browser Developer Tools
 
