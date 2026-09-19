@@ -72,7 +72,6 @@ Portfolio/
 │   └── logos/
 │
 └── README.md
-```
 
 ---
 
@@ -93,13 +92,13 @@ assets/images/desktop-preview.png
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/utkarshx08/virtual_portfolioanalysis.git
+git clone https://github.com/utkarshx08/virtual_portfolio.git
 ```
 
 ### Navigate to the Project
 
 ```bash
-cd virtual_portfolioanalysis
+cd virtual_portfolio
 ```
 
 ### Open the Project
